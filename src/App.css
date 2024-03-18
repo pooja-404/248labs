@@ -89,7 +89,8 @@
 .off-gray {
   color: var(--off-gray)
 }
-.bg-purple{
+
+.bg-purple {
   background: var(--purle);
 }
 
@@ -161,17 +162,20 @@
   animation-name: flow;
   animation-duration: 500ms;
   animation-timing-function: linear;
-  background: linear-gradient(#D4145A, #FFC839, #AD1AAF, #D4145A, #FFC839);
+  background: linear-gradient(#D4145A,  #FFC839);
   scale: 1.1 !important;
+  box-shadow: 0px 0px 10px 0px #fff ;
+
 }
+
 
 @keyframes flow {
   0% {
-    background-position: 0% 50%;
+    background-position: 50%;
   }
 
   100% {
-    background-position: 100%;
+    background-position: 50%;
   }
 }
 
@@ -614,7 +618,7 @@
   text-align: center;
   vertical-align: middle;
   position: relative;
-  padding: 150px;
+  /* padding: 150px; */
   box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
 }
 
@@ -629,15 +633,15 @@
 }
 
 .loader span:nth-child(2) {
-  background: #f07e6e;
+  background: #D4145A;
 }
 
 .loader span:nth-child(3) {
-  background: #84cdfa;
+  background: #AD1AAF;
 }
 
 .loader span:nth-child(4) {
-  background: #5ad1cd;
+  background: #FBB03B;
 }
 
 .loader span:not(:last-child) {
