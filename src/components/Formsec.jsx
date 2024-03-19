@@ -47,9 +47,6 @@ const FormSec = () => {
         if (!regex.email.test(formData.email)) {
             errors.email = "Email is invalid.";
         }
-        // if (!checkRef.current.checked) {
-        //     errors.checkbox = "box is not  ";
-        // }
 
         setFormErrors(errors);
         if (Object.keys(errors).length === 0) {
@@ -76,10 +73,10 @@ const FormSec = () => {
             <div className="container py-lg-5 my-lg-5">
                 <div className="row align-items-center pt-sm-5">
                     <div data-aos="fade-right" className="col-lg-7 col-12 ">
-                        <div className="form-card w-100 px-5 px-3  pt-4 pb-5">
-                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white pb-3'>Get updated with us</h2>
+                        <div className="form-card w-100 px-lg-5 px-3  pt-lg-4 pb-5">
+                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white '>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
-                                <div className="d-sm-flex gap-4 pt-4">
+                                <div className="d-sm-flex gap-4 pt-lg-4">
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
                                         {" "}
                                         <label
@@ -96,11 +93,12 @@ const FormSec = () => {
                                                 value={formData.FirstName}
                                                 onChange={handleChange}
                                                 placeholder="Park Seijun"
-                                                className="font-roboto lh-20 fw-normal fs-xs off-gray inputM form-w "
+                                                className="font-roboto lh-20 fw-normal fs-xs off-gray form_input
+                                                 form-w "
                                             />
                                         </div>
                                         {formErrors.FirstName && (
-                                            <p className="error ff_Roboto">{formErrors.FirstName}</p>
+                                            <p className="error font-roboto">{formErrors.FirstName}</p>
                                         )}
                                     </div>
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
@@ -119,15 +117,15 @@ const FormSec = () => {
                                                 value={formData.LastName}
                                                 onChange={handleChange}
                                                 placeholder="Sejiun"
-                                                className="font-roboto lh-20 fw-normal fs-xs off-gray inputM form-w  "
+                                                className="font-roboto lh-20 fw-normal fs-xs off-gray form_input form-w  "
                                             />
                                         </div>
                                         {formErrors.LastName && (
-                                            <p className="error ff_Roboto">{formErrors.LastName}</p>
+                                            <p className="error font-roboto">{formErrors.LastName}</p>
                                         )}
                                     </div>
                                 </div>
-                                <div className="d-sm-flex gap-4 pt-4">
+                                <div className="d-sm-flex gap-4 pt-sm-4">
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
                                         {" "}
                                         <label
@@ -144,11 +142,12 @@ const FormSec = () => {
                                                 value={formData.number}
                                                 onChange={handleChange}
                                                 placeholder="+12 5858526478"
-                                                className="font-roboto lh-20 fw-normal fs-xs off-gray inputM  form-w "
+                                                className="font-roboto lh-20 fw-normal fs-xs off-gray form_input
+                                                  form-w "
                                             />
                                         </div>
                                         {formErrors.number && (
-                                            <p className="error ff_Roboto">{formErrors.number}</p>
+                                            <p className="error font-roboto">{formErrors.number}</p>
                                         )}
                                     </div>
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
@@ -167,7 +166,7 @@ const FormSec = () => {
                                                 value={formData.email}
                                                 onChange={handleChange}
                                                 placeholder="Park@458@Gmail.com"
-                                                className="font-roboto lh-20 fw-normal fs-xs off-gray inputM form-w  "
+                                                className="font-roboto lh-20 fw-normal fs-xs off-gray form_input form-w  "
                                             />
                                         </div>
                                         {formErrors.email && (
@@ -188,13 +187,13 @@ const FormSec = () => {
                                     </p>
                                 </div>
                                 {formErrors.checkbox && (
-                                    <p className="error ff_Roboto">{formErrors.checkbox}</p>
+                                    <p className="error font-roboto">{formErrors.checkbox}</p>
                                 )}
                                 <button className='font-roboto fs-s fw-medium lh-28 text-white common-btn five   border-0'>Subscribe</button>
                             </form>
                             {showPopup && (
                                 <div className="popup">
-                                    <p className="ff_Roboto fw-medium fs_xmd mb-0 pb-2 text_Main">
+                                    <p className="font-roboto fw-medium fs_xmd mb-0 pb-2 text_Main">
                                         Form submitted successfully!
                                     </p>
                                     <button
@@ -224,7 +223,7 @@ const FormSec = () => {
             </div>
             <img src={formlayer} alt="form" className="position-absolute form_layer  w-100" />
         </div>
-      
+
 
     );
 };

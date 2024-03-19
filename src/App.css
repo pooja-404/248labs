@@ -18,7 +18,7 @@
   --fs-md: 18px;
   --fs-lg: 28px;
   --fs-xl: 33px;
-  --fs-xxl: 58px;
+  --fs-xxl: 50px;
   --fs-2xl: 80px;
 
 
@@ -398,7 +398,7 @@
   z-index: -1;
 }
 
-.inputM {
+.form_input {
   background: transparent;
   outline: none;
   border: 1px solid gray;
@@ -411,7 +411,7 @@
   transition: all linear 300ms;
 }
 
-.inputM:hover {
+.form_input:hover {
   border: 1px solid transparent
 }
 
@@ -952,7 +952,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 24px;
-    background-color: #2C174B;
+    background-image: url(../src/assets/images/herobg.webp);
     z-index: 6 !important;
   }
 
@@ -1070,7 +1070,6 @@
     bottom: 45%;
     right: 47%;
   }
-
 
   .mt-lg-170 {
     margin-top: 170px;
