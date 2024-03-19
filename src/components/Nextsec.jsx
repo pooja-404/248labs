@@ -1,10 +1,10 @@
 import React from 'react'
-import layer1 from '../assets/images/nextlayer1.png'
-import layer2 from '../assets/images/nextlayer2.png'
+import layer1 from '../assets/images/nextlayer1.webp'
+import layer2 from '../assets/images/nextlayer2.webp'
 
 function Nextsec() {
   return (
-    <div className='bg-nextsec d-flex align-items-center justify-content-center position-relative '>
+    <div className='bg-nextsec d-flex align-items-center justify-content-center position-relative overflow-hidden '>
       <div className="container">
         <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center pb-3' data-aos="zoom-in">What’s Next</h2>
         <p className='font-roboto fs-s lh-24 fw-semibold text-white text-center' data-aos="zoom-in">92% of gamers have never even tried a Web3 game. We’re going to change that.</p>

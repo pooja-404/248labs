@@ -17,7 +17,6 @@ const productcard = [
 
 ];
 
-
 const Gamesec = () => {
 
     const list = productcard.map((productcard, p) => (
@@ -25,12 +24,12 @@ const Gamesec = () => {
             <div className=" game-card overflow-hidden px-4 pt-5 light-black box position-relative" data-aos="flip-up">
                 <h2 className='font-roboto fs-lg lh-38 fw-bold text-white'>{productcard.heading}</h2>
                 <p className='font-roboto fs-s lh-24 fw-normal off-gray'>{productcard.para}</p>
-                <div className='card-shadow position-absolute '></div>
+                <div className='card-game-shadow  position-absolute '></div>
             </div>
         </div>
     ));
     return (
-        <div className='pt-5 pb-lg-5 position-relative z-1' id='our'>
+        <div className='pt-5 pb-lg-5 position-relative z-1 overflow-x-clip' id='our'>
             <div className="container pt-lg-5 pb-3">
                 <div className="row py-lg-5">
                     <div className="col-lg-7"  data-aos="fade-right">

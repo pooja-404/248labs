@@ -1,11 +1,11 @@
 import React from 'react'
-import footerlogo from '../assets/images/logo.png'
+import footerlogo from '../assets/images/logo.webp'
 import { FooterDiscord, FooterFacebook, FooterLinkin, FooterTwitter } from './Icons'
 function Footersec() {
     const Dates = new Date()
     const year = Dates.getFullYear()
     return (
-        <div className='position-relative z-1 pt-5'>
+        <div className='position-relative overflow-hidden z-1 pt-5'>
             <div className="container pt-md-5" data-aos="zoom-in-up">
                 <div className='d-flex justify-content-center'>
                     <img src={footerlogo} alt="logo" className='cursor-pointer mx-auto  ' />

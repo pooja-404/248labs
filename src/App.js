@@ -34,7 +34,7 @@ function App() {
     });
   }, []);
   return (
-    <div className='bg-black overflow-hidden'>
+    <div className='bg-black '>
       {data ? (
         <div>{<Preloadersec />}</div>
       ) : (

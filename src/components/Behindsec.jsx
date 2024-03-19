@@ -1,13 +1,13 @@
 
 import React from 'react'
-import behindimg1 from '../assets/images/behind1.png'
-import behindimg2 from '../assets/images/behind2.png'
-import behindimg3 from '../assets/images/behind3.png'
-import behindimg4 from '../assets/images/behind4.png'
-import behindimg5 from '../assets/images/behind5.png'
-import behindimg6 from '../assets/images/behind6.png'
-import behindimg7 from '../assets/images/behind7.png'
-import behindimg8 from '../assets/images/behind8.png'
+import behindimg1 from '../assets/images/behind1.webp'
+import behindimg2 from '../assets/images/behind2.webp'
+import behindimg3 from '../assets/images/behind3.webp'
+import behindimg4 from '../assets/images/behind4.webp'
+import behindimg5 from '../assets/images/behind5.webp'
+import behindimg6 from '../assets/images/behind6.webp'
+import behindimg7 from '../assets/images/behind7.webp'
+import behindimg8 from '../assets/images/behind8.webp'
 
 
 const productcard = [
@@ -100,10 +100,10 @@ const Behindsec = () => {
         </div>
     ));
     return (
-        <div className='position-relative z-1' id='about'>
+        <div className='position-relative z-1 overflow-hidden' id='about'>
             <div className="container py-lg-5">
-                <div className="d-flex justify-content-center text " data-aos="zoom-in">
-                    <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>Our Team</button>
+                <div className="d-flex justify-content-center text " >
+                    <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</button>
                 </div>
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center py-3' data-aos="zoom-in">Behind our expertise</h2>
                 <div className="row pt-3">

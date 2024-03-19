@@ -1,9 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import logo from '../assets/images/logo.png'
-
-
-
+import logo from '../assets/images/logo.webp'
+import hero from '../assets/images/headicon.png'
 const Headersec = () => {
     const [show, setshow] = useState(true);
     if (show === false) {
@@ -13,8 +11,8 @@ const Headersec = () => {
     }
 
     return (
-        <div className='bg-header min-vh-100 d-flex flex-column  position-relative'>
-            <nav className="container">
+        <div className='bg-header min-vh-100 d-flex flex-column position-relative overflow-hidden'>
+            <nav className="container py-2">
                 <div className="d-flex align-items-center justify-content-between py-4">
                     <img src={logo} alt="Logo" className=" cursor-pointer" />
                     <>
@@ -67,6 +65,7 @@ const Headersec = () => {
                     <p className='font-roboto fs-md lh-28 text-white fw-normal text-center pt-2' data-aos="zoom-in" data-aos-duration="2000">Redefining the future of play</p>
                 </div>
             </div>
+            <img src={hero} alt="hero" className='position-abs olute bottom-0  mx-auto star t-50 ' />
             
 
         </div >

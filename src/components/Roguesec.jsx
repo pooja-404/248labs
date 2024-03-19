@@ -1,14 +1,14 @@
 import React from 'react'
-import unique from '../assets/images/unique.png'
+import unique from '../assets/images/unique.webp'
 
 function Roguesec() {
     return (
-        <div className='position-relative z-1'>
+        <div className='position-relative overflow-x-clip z-1'>
             <div className="container py-lg-5">
                 <img src={unique} alt="uniqueimg" className='border-radius-img w-100' />
                 <div className="row pt-4 pb-md-5">
                     <div className="col-lg-4 pt-3"  data-aos="fade-right">
-                        <li><a href="" className='font-roboto fs-sm fw-bold lh-27 text-white common-btn five '>name@domain.com</a></li>
+                        <li><a href="" className='font-roboto fs-sm fw-bold lh-27 text-white link-btn box '>name@domain.com</a></li>
                         <li className='mt-5'><a href="" className='font-roboto fs-sm fw-bold lh-27 px-5 text-white common-btn five '>Make Your Move</a></li>
                     </div>
                     <div className="col-lg-8 pt-5 pt-lg-0"  data-aos="fade-left">

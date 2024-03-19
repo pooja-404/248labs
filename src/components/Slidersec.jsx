@@ -2,11 +2,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from 'react'
-import sliderimg1 from '../assets/images/sliderimg1.png'
-import sliderimg2 from '../assets/images/sliderimg2.png'
-import sliderimg3 from '../assets/images/sliderimg3.png'
-import sliderimg4 from '../assets/images/sliderimg4.png'
-import sliderimg5 from '../assets/images/sliderimg5.png'
+import sliderimg1 from '../assets/images/sliderimg1.webp'
+import sliderimg2 from '../assets/images/sliderimg2.webp'
+import sliderimg3 from '../assets/images/sliderimg3.webp'
+import sliderimg4 from '../assets/images/sliderimg4.webp'
+import sliderimg5 from '../assets/images/sliderimg5.webp'
 
 function Slidersec() {
     var settings = {
@@ -19,6 +19,7 @@ function Slidersec() {
         autoplaySpeed: 0,
         cssEase: "linear",
         autoplay: true,
+        variableWidth: true,
         dots: false,
         responsive: [
             {
@@ -30,7 +31,7 @@ function Slidersec() {
                     dots: false,
                     CenterMode: true,
                     arrow: false,
-                    variableWidth: true,
+                    // variableWidth: true,
                 }
             },
             {
@@ -71,22 +72,22 @@ function Slidersec() {
         ]
     };
     return (
-        <div className="pt-lg-5">
+        <div className="py-lg-5 overflow-hidden">
             <div className="container py-5">
                 <Slider {...settings} className="slider-align pt-5">
-                    <div className="mx-3 mx-lg-0 d-flex align-items-end slider-size ">
+                    <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size ">
                         <img src={sliderimg1} alt="slider" className="opicity" />
                     </div>
-                    <div className="mx-3 mx-lg-0 d-flex align-items-end slider-size ">
+                    <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center  slider-size ">
                         <img src={sliderimg2} alt="slider" className="opicity" />
                     </div>
-                    <div className="mx-3 d-flex align-items-end slider-size ">
+                    <div className="px-4 d-flex align-items-end justify-content-center slider-size ">
                         <img src={sliderimg3} alt="slider" className="opicity" />
                     </div>
-                    <div className="mx-3 mx-lg-0 d-flex align-items-end slider-size ">
+                    <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size ">
                         <img src={sliderimg4} alt="slider" className="opicity" />
                     </div>
-                    <div className="mx-3 mx-lg-0 d-flex align-items-end slider-size ">
+                    <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size  ">
                         <img src={sliderimg5} alt="slider" className="opicity" />
                     </div>
 
