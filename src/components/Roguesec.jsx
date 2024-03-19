@@ -18,7 +18,7 @@ function Roguesec() {
                     </div>
                 </div>
             </div>
-            <div className='position-absolute rougue-ellipse z-n1'></div>
+            <div className='position-absolute rougue-ellipse z-n1 d-none d-md-block'></div>
         </div>
     )
 }
