@@ -102,7 +102,7 @@ const Behindsec = () => {
     return (
         <div className='position-relative z-1 overflow-hidden' id='about'>
             <div className="container py-lg-5">
-                <div className="d-flex justify-content-center text " >
+                <div className="d-flex justify-content-center text mt-5 " >
                     <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</button>
                 </div>
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center py-3' data-aos="zoom-in">Behind our expertise</h2>
@@ -112,7 +112,7 @@ const Behindsec = () => {
             </div>
             <div className='behind-ellipse position-absolute behind-position'></div>
             <div className='behind-ellipse position-absolute  behind-position-right'></div>
-            <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  behind-text-ellipse'>Our Team</p>
+            <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  behind-text-ellipse mt-5'>Our Team</p>
         </div>
     )
 }
