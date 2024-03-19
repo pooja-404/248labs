@@ -361,13 +361,15 @@
 
 /* formsec */
 .form-card {
-
   position: relative;
   border-radius: 30px;
   border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 43, 85, 0.2) 100%) !important;
   backdrop-filter: blur(15px) !important;
   display: inline-block;
 
+}
+.form_layer{
+  top: -69px !important;
 }
 
 .w_100 {
@@ -584,19 +586,10 @@
 .overflow-x-clip{
   overflow-x: clip;
 }
-
-/* slider */
-
-.slider-align .slick-track {
-  display: flex;
-  align-items: center;
-}
-
 .slider-size {
   height: 76px;
 
 }
-
 .opicity {
   opacity: 0.6;
 }
@@ -743,7 +736,6 @@
   bottom: 0;
   top: 0;
   border-radius: 30px;
-  transition: all linear 300ms;
   filter: opacity(0);
   opacity: 0;
 }
@@ -778,75 +770,13 @@
   z-index: -1;
   transition: all linear 300ms;
 }
-
 .content:hover {
   background-color: #121212;
 }
-
 .content:hover::before {
-  /* bottom: -70%;
-  filter: blur(60px);
-  width: 437px;
-  height: 72px;
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%); */
   filter: blur(90px);
   bottom: -40%;
 }
-
-/* .main-timeline {
-  position: relative;
-}
-
-.roadmap-card {
-  background: #1E1E1E75;
-  width: 100%;
-  height: 197px;
-  transition: all 300ms linear;
-}
-
-.roadmap-card:hover .card-shadow {
-  width: 437px;
-  height: 72px;
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-  filter: blur(90px);
-  bottom: -40%;
-}
-
-.roadmap-card:hover.box::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 32px;
-  padding: 1px;
-  background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.4) 1.85%, rgba(251, 176, 59, 0.4) 98.12%);
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-}
-
-.roadmap-card:hover .card-shadow {
-  opacity: 1;
-}
-
-.main-timeline::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  top: 0 !important;
-  bottom: 0;
-  left: 9% !important;
-  inset: 0;
-  padding: 1px;
-  background: linear-gradient(90deg, #EC7646 1.56%, rgba(255, 255, 255, 0) 94.87%);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  z-index: -1;
-}
-
 /* backtotp */
 .back-button {
   bottom: 10px;

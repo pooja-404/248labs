@@ -77,7 +77,7 @@ const FormSec = () => {
                 <div className="row align-items-center pt-sm-5">
                     <div data-aos="fade-right" className="col-lg-7 col-12 ">
                         <div className="form-card w-100 px-5 px-3  pt-4 pb-5">
-                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white  pb-3'>Get updated with us</h2>
+                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white pb-3'>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
                                 <div className="d-sm-flex gap-4 pt-4">
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
@@ -222,7 +222,7 @@ const FormSec = () => {
                     </div>
                 </div>
             </div>
-            <img src={formlayer} alt="form" className="position-absolute top-0 w-100" />
+            <img src={formlayer} alt="form" className="position-absolute form_layer  w-100" />
         </div>
       
 

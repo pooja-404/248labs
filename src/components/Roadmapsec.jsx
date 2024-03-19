@@ -17,7 +17,7 @@ const Roadmapsec = () => {
                     <div className="border_color mt_150">
                         <div className="border_color2">
                             <div className="d-flex justify-content-center mt-2" data-aos="zoom-in">
-                                <button className='font-roboto fs-s lh-19 fw-normal graident-btnn color-gradient box border-0'>Road Map</button>
+                                <button className='font-roboto fs-s lh-19 fw-normal graident-btnn color-gradient box border-0'>ROAD MAP</button>
                             </div>
                         </div>
                     </div>
@@ -27,15 +27,17 @@ const Roadmapsec = () => {
                     <div className="LineLogo">
                         <img className="w-100" src={roadmapkite} alt="roadmapkite" />
                     </div>
-                    <div className="roadmap-box pt-4 pt-sm-5 right">
-                        <div data-aos="flip-left" className="Content2 ">
+                    <div className="roadmap-box pt-4 pt-sm-5  right">
+                        <div data-aos="flip-left" className="Content2  ">
                             <div className="content d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Oct 2014</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">
                                     Hired our first employee
                                 </p>
                             </div>
+                            <div className="card-shadow"></div>
                         </div>
+
                     </div>
                     <div className="roadmap-box pt-4 pt-sm-5 mt-lg-170 left">
                         <div data-aos="flip-right" className="Content2">
@@ -73,7 +75,7 @@ const Roadmapsec = () => {
                         </div>
                     </div>
                     <div className="roadmap-box mt-lg-170 pt-4 pt-sm-5 right">
-                        <div data-aos="zoom-out" className="Content2">
+                        <div data-aos="flip-left" className="Content2">
                             <div className="content d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Jan 2022</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">
