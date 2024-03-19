@@ -14,7 +14,9 @@ const Headersec = () => {
         <div className='bg-header min-vh-100 d-flex flex-column position-relative overflow-hidden'>
             <nav className="container py-2">
                 <div className="d-flex align-items-center justify-content-between py-4">
-                    <img src={logo} alt="Logo" className=" cursor-pointer navlogo " />
+                    <a href="">
+                        <img src={logo} alt="Logo" className=" cursor-pointer navlogo " />
+                    </a>
                     <>
                         <ul className={`${show ? "left_100" : "left_0"} nav_bar gap-4 d-flex ps-0`}>
                             <li onClick={() => setshow(!show)}>
@@ -41,7 +43,7 @@ const Headersec = () => {
                                     Roadmap
                                 </a>
                             </li>
-                           
+
                             <li className='main ps-3 pt-3 pt-lg-0'>
                                 <a href="" className='font-roboto fs-sm fw-bold lh-27 text-white five common-btn'>Contact Us</a>
                             </li>
@@ -66,7 +68,7 @@ const Headersec = () => {
                 </div>
             </div>
             <img src={hero} alt="hero" className='position-abs olute bottom-0  mx-auto star t-50 ' />
-            
+
 
         </div >
     )

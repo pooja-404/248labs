@@ -104,13 +104,13 @@ const Behindsec = () => {
                 <div className="d-flex justify-content-center text mt-5 " >
                     <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</button>
                 </div>
-                <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center py-3' data-aos="zoom-in">Behind our expertise</h2>
+                <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center py-lg-3 pt-2' data-aos="zoom-in">Behind our expertise</h2>
                 <div className="row pt-3">
                     {list}
                 </div>
             </div>
-            <div className='behind-ellipse position-absolute behind-position'></div>
-            <div className='behind-ellipse position-absolute  behind-position-right'></div>
+            <div className='behind-ellipse position-absolute behind-position z-n1'></div>
+            <div className='behind-ellipse position-absolute  behind-position-right z-n1'></div>
             <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  behind-text-ellipse mt-5'>Our Team</p>
         </div>
     )

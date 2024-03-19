@@ -30,7 +30,7 @@ const Roadmapsec = () => {
                     <div className="roadmap-box pt-4 pt-sm-5  right">
                         <div data-aos="flip-left" className="Content2  ">
                             <div className="content d-flex  justify-content-center flex-column">
-                                <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Oct 2014</h2>
+                                <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Oct 2014</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">
                                     Hired our first employee
                                 </p>
@@ -42,7 +42,7 @@ const Roadmapsec = () => {
                     <div className="roadmap-box pt-4 pt-sm-5 mt-lg-170 left">
                         <div data-aos="flip-right" className="Content2">
                             <div className="content d-flex  justify-content-center flex-column">
-                                <h3 className='font-roboto fs-xs lh-28 color-gradient fw-normal text-center'>Nov 2014</h3>
+                                <h3 className='font-roboto fs-md lh-28 color-gradient fw-normal text-center'>Nov 2014</h3>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">Launched Bitcoin wallet</p>
 
                             </div>
@@ -51,7 +51,7 @@ const Roadmapsec = () => {
                     <div className="roadmap-box mt-lg-170 pt-4 pt-sm-5 right">
                         <div data-aos="flip-left" className="Content2">
                             <div className="content d-flex  justify-content-center flex-column">
-                                <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Oct 2015</h2>
+                                <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Oct 2015</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">
                                     1st prize by Bit angels at Coin Agenda,
                                     <span className="d-lg-block"> Las Vegas</span>
@@ -62,7 +62,7 @@ const Roadmapsec = () => {
                     <div className="roadmap-box pt-4 pt-sm-5 mt-lg-170 left">
                         <div data-aos="flip-right" className="Content2">
                             <div className="content d-flex  justify-content-center flex-column">
-                                <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Jan 2020</h2>
+                                <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Jan 2020</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center d-sm-flex align-items-center gap-2 justify-content-center ">
                                     launch On{" "}
                                     <span className="d-flex align-items-center gap-3 pt-3 pt-sm-0 justify-content-center">
@@ -77,7 +77,7 @@ const Roadmapsec = () => {
                     <div className="roadmap-box mt-lg-170 pt-4 pt-sm-5 right">
                         <div data-aos="flip-left" className="Content2">
                             <div className="content d-flex  justify-content-center flex-column">
-                                <h2 className="font-roboto fs-xs lh-28 color-gradient fw-normal text-center">Jan 2022</h2>
+                                <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Jan 2022</h2>
                                 <p className="mb-0 font-roboto fs-md off-gray lh-28 fw-normal text-center ">
                                     Trusted by 10 Millions+ Users{" "}
                                     <span className="d-lg-block pt-2">
