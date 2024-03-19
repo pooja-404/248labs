@@ -95,7 +95,6 @@ const Behindsec = () => {
                     </div>
                 </div>
                 <p className='font-roboto fs-s lh-24 fw-normal off-gray pt-3  max-w-5 30'>{productcard.text}</p>
-                <div className='card-shadow position-absolute '></div>
             </div>
         </div>
     ));

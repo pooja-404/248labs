@@ -47,9 +47,9 @@ const FormSec = () => {
         if (!regex.email.test(formData.email)) {
             errors.email = "Email is invalid.";
         }
-        if (!checkRef.current.checked) {
-            errors.checkbox = "Checkbox is not fill ";
-        }
+        // if (!checkRef.current.checked) {
+        //     errors.checkbox = "box is not  ";
+        // }
 
         setFormErrors(errors);
         if (Object.keys(errors).length === 0) {

@@ -21,7 +21,7 @@ const Gamesec = () => {
 
     const list = productcard.map((productcard, p) => (
         <div className='col-lg-4 col-md-6 pt-5 ' key={p} >
-            <div className=" game-card overflow-hidden px-4 pt-5 light-black box position-relative" data-aos="flip-up">
+            <div className=" game-card overflow-hidden px-4 pt-5 light-black box game-card2 position-relative" data-aos="flip-up">
                 <h2 className='font-roboto fs-lg lh-38 fw-bold text-white'>{productcard.heading}</h2>
                 <p className='font-roboto fs-s lh-24 fw-normal off-gray'>{productcard.para}</p>
                 <div className='card-game-shadow  position-absolute '></div>
@@ -32,11 +32,11 @@ const Gamesec = () => {
         <div className='pt-5 pb-lg-5 position-relative z-1 overflow-x-clip' id='our'>
             <div className="container pt-lg-5 pb-3">
                 <div className="row py-lg-5">
-                    <div className="col-lg-7"  data-aos="fade-right">
+                    <div className="col-lg-7" data-aos="fade-right">
                         <a href="" className='font-roboto fs-s lh-19 fw-normal graident-btnn color-gradient box '>DOERS OVER TALKERS</a>
                         <h2 className='font-roboto fs-xl lh-62 fw-bold text-white pt-4 '>Game  <span className='d-lg-block'>First.Always.</span></h2>
                     </div>
-                    <div className="col-lg-5 pt-4"  data-aos="fade-left">
+                    <div className="col-lg-5 pt-4" data-aos="fade-left">
                         <h2 className='font-roboto fs-sm lh-21 fw-medium text-white pt-lg-5'>This is difficult</h2>
                         <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 '>Web3 Games have a notoriously high barrier-to-entry for casual gamers who make up the vast majority of players. “Link your wallet” before gameplay is not just off-putting, it’s boring. We’re solving that with <span className='fw-bold'>world-class storytelling,</span> world-building, game design, art and sound. And fun.</p>
                     </div>

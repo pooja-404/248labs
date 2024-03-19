@@ -24,7 +24,7 @@ const Backtotop = () => {
     return (
         <div>
             <button
-                className=" position-fixed bounce border-0  back-button justify-content-center align-items-center "
+                className=" position-fixed bounce border-0 back-button justify-content-center align-items-center "
                 onClick={scrollToTop}
                 style={{
                     display: visible ? "flex " : "none",
