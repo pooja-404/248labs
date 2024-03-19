@@ -8,7 +8,7 @@ function Footersec() {
         <div className='position-relative overflow-hidden z-1 pt-5'>
             <div className="container pt-md-5" data-aos="zoom-in-up">
                 <div className='d-flex justify-content-center'>
-                    <img src={footerlogo} alt="logo" className='cursor-pointer mx-auto  ' />
+                    <img src={footerlogo} alt="logo" className='cursor-pointer mx-auto navlogo  ' />
                 </div>
                 <ul className=' d-flex justify-content-center gap-3 ps-0 pt-3 '>
                     <li><a href="#home" className='font-roboto fs-s lh-24 fw-normal off-gray nav_line position-relative navhover'>Home</a></li>

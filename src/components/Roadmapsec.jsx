@@ -25,7 +25,7 @@ const Roadmapsec = () => {
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center mb-md-170 pt-3' data-aos="zoom-in">Milestones and markers</h2>
                 <div className="timeline1  pt-5 mt_150">
                     <div className="LineLogo">
-                        <img className="w-100" src={roadmapkite} alt="roadmapkite" />
+                        <img className="w_105" src={roadmapkite} alt="roadmapkite" />
                     </div>
                     <div className="roadmap-box pt-4 pt-sm-5  right">
                         <div data-aos="flip-left" className="Content2  ">

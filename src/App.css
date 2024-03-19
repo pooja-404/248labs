@@ -368,7 +368,8 @@
   display: inline-block;
 
 }
-.form_layer{
+
+.form_layer {
   top: -69px !important;
 }
 
@@ -583,13 +584,16 @@
   left: -12%;
   top: 10%;
 }
-.overflow-x-clip{
+
+.overflow-x-clip {
   overflow-x: clip;
 }
+
 .slider-size {
   height: 76px;
 
 }
+
 .opicity {
   opacity: 0.6;
 }
@@ -669,8 +673,12 @@
 }
 
 /* roadmap */
-.text_color {
+/* .text_color {
   color: var(--primery);
+} */
+
+.w_105 {
+  width: 105%;
 }
 
 .RoadMapPostion {
@@ -770,19 +778,22 @@
   z-index: -1;
   transition: all linear 300ms;
 }
+
 .content:hover {
   background-color: #121212;
 }
+
 .content:hover::before {
   filter: blur(90px);
   bottom: -40%;
 }
+
 /* backtotp */
 .back-button {
   bottom: 10px;
   right: 10px;
   z-index: 50;
-  background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.4) 1.85%, rgba(150, 95, 7, 0.4) 98.12%);
+  background: linear-gradient(151.6deg, rgba(230, 67, 12, 0.4) 1.85%, rgba(150, 95, 7, 0.4) 98.12%);
   -webkit-mask-composite: xor;
   padding: 15px;
   border-radius: 50%;
@@ -910,6 +921,10 @@
   z-index: 1;
 }
 
+.navlogo {
+  max-width: 206px;
+}
+
 @media (max-width: 992px) {
   .nav_bar {
     position: fixed;
@@ -1035,11 +1050,13 @@
     right: 44%;
   }
 }
+
 @media (min-width: 991.5px) {
   .vedio-btn {
     bottom: 45%;
     right: 47%;
   }
+
 
   .mt-lg-170 {
     margin-top: 170px;

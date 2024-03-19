@@ -14,7 +14,7 @@ const Headersec = () => {
         <div className='bg-header min-vh-100 d-flex flex-column position-relative overflow-hidden'>
             <nav className="container py-2">
                 <div className="d-flex align-items-center justify-content-between py-4">
-                    <img src={logo} alt="Logo" className=" cursor-pointer" />
+                    <img src={logo} alt="Logo" className=" cursor-pointer navlogo " />
                     <>
                         <ul className={`${show ? "left_100" : "left_0"} nav_bar gap-4 d-flex ps-0`}>
                             <li onClick={() => setshow(!show)}>
