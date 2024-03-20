@@ -29,7 +29,7 @@ const Gamesec = () => {
         </div>
     ));
     return (
-        <div className='pt-5 pb-lg-5 position-relative z-1 overflow-x-clip' id='our'>
+        <div className='pt-5 pb-lg-5 position-relative z-1 overflow-x-clip' id='about'>
             <div className="container pt-lg-5 pb-3">
                 <div className="row py-lg-5">
                     <div className="col-lg-7" data-aos="fade-right">

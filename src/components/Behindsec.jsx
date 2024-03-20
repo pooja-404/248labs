@@ -99,7 +99,7 @@ const Behindsec = () => {
         </div>
     ));
     return (
-        <div className='position-relative z-1 overflow-hidden' id='about'>
+        <div className='position-relative z-1 overflow-hidden' id='our'>
             <div className="container py-lg-5">
                 <div className="d-flex justify-content-center text mt-5 " >
                     <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</button>

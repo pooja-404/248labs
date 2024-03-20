@@ -105,7 +105,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="LastName"
-                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-3 "
+                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-3 "
                                         >
                                             Last Name
                                         </label>
@@ -154,7 +154,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="email"
-                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-3"
+                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-3"
                                         >
                                             Email
                                         </label>

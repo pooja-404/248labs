@@ -98,7 +98,7 @@ const Roadmapsec = () => {
                     </div>
                 </div>
             </div>
-            <div className='roadmap-ellipse position-absolute z-n1 d-none d-md-block'></div>
+            <div className='roadmap-ellipse position-absolute z-n1 d-none d-lg-block'></div>
             <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  roadmap-text-ellipse '>Roadmap</p>
         </div >
     );

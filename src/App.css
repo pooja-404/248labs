@@ -179,10 +179,11 @@
   border-radius: 30px;
   transition: all 500 linear !important;
   background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.2) 1.85%, rgba(251, 176, 59, 0.2) 98.12%);
+  z-index: 1;
 }
 
 .graident-btnn:hover {
-  opacity: 1;
+  opacity: (1);
 }
 
 .graident-btnn.box::before {
@@ -198,7 +199,8 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
-
+  opacity: (0);
+  transition: all 500 linear !important;
 }
 
 .graident-btnn.box::after {
@@ -357,10 +359,12 @@
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
   z-index: -1;
+  opacity: (0);
 }
 
 .level-card:hover {
   box-shadow: 0px 0px 20px 0px rgb(249, 245, 241);
+  opacity: (1);
 }
 
 /* formsec */
@@ -926,6 +930,9 @@
   bottom: 21%;
   right: 34%;
 }
+.mt_lg_btn{
+  margin-top: 30px;
+}
 
 .LineLogo {
   max-width: 50px;
@@ -1069,6 +1076,10 @@
   .vedio-btn {
     bottom: 45%;
     right: 47%;
+  }
+
+  .mt_lg_btn {
+    margin-top: 35px !important;
   }
 
   .mt-lg-170 {

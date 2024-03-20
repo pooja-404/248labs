@@ -13,7 +13,7 @@ function Slidersec() {
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        speed: 3000,
+        speed: 2500,
         arrows: false,
         variableWidth: false,
         autoplaySpeed: 0,
@@ -31,7 +31,7 @@ function Slidersec() {
                     dots: false,
                     CenterMode: true,
                     arrow: false,
-                    // variableWidth: true,
+                    variableWidth: true,
                 }
             },
             {
