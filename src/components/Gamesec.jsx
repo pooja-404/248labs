@@ -47,8 +47,8 @@ const Gamesec = () => {
                     {list}
                 </div>
             </div>
-            <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  text-position'>About Us</p>
-            <div className='games-ellipse z-n1 position-absolute'></div>
+            <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1   text-position'>About Us</p>
+            <div className='games-ellipse z-n1 position-absolute d-none d-lg-block'></div>
         </div>
     )
 }
