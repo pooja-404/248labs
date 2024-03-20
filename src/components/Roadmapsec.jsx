@@ -27,7 +27,7 @@ const Roadmapsec = () => {
                     <div className="LineLogo">
                         <img className="w_105" src={roadmapkite} alt="roadmapkite" />
                     </div>
-                    <div className="roadmap-box pt-4 pt-sm-5  right">
+                    <div className="roadmap-box pt-3 pt-sm-5  right">
                         <div data-aos="flip-left" className="Content2  ">
                             <div className="roadmap-card d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Oct 2014</h2>
@@ -39,7 +39,7 @@ const Roadmapsec = () => {
                         </div>
 
                     </div>
-                    <div className="roadmap-box pt-4 pt-sm-5 mt-lg-170 left">
+                    <div className="roadmap-box pt-3 pt-sm-5 mt-lg-170 left">
                         <div data-aos="flip-right" className="Content2">
                             <div className="roadmap-card d-flex  justify-content-center flex-column">
                                 <h3 className='font-roboto fs-md lh-28 color-gradient fw-normal text-center'>Nov 2014</h3>
@@ -48,7 +48,7 @@ const Roadmapsec = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="roadmap-box mt-lg-170 pt-4 pt-sm-5 right">
+                    <div className="roadmap-box mt-lg-170 pt-3 pt-sm-5 right">
                         <div data-aos="flip-left" className="Content2">
                             <div className="roadmap-card d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Oct 2015</h2>
@@ -59,7 +59,7 @@ const Roadmapsec = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="roadmap-box pt-4 pt-sm-5 mt-lg-170 left">
+                    <div className="roadmap-box pt-3 pt-sm-5 mt-lg-170 left">
                         <div data-aos="flip-right" className="Content2">
                             <div className="roadmap-card d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Jan 2020</h2>
@@ -74,7 +74,7 @@ const Roadmapsec = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="roadmap-box mt-lg-170 pt-4 pt-sm-5 right">
+                    <div className="roadmap-box mt-lg-170 pt-3 pt-sm-5 right">
                         <div data-aos="flip-left" className="Content2">
                             <div className="roadmap-card d-flex  justify-content-center flex-column">
                                 <h2 className="font-roboto fs-md lh-28 color-gradient fw-normal text-center">Jan 2022</h2>
