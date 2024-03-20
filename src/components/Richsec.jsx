@@ -4,7 +4,7 @@ import richworld from '../assets/images/richworld.webp'
 function Richsec() {
     return (
         <div className='py-lg-5 position-relative z-1 overflow-hidden'>
-            <div className="container py-5">
+            <div className="container py-lg-5 pt-4">
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center pb-4' data-aos="zoom-in">A rich, inhabited, and licensable world.</h2>
                 <div className='position-relative'>
                     <img src={richworld} alt="richwold" className='border-radius-img w-100' />
