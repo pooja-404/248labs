@@ -81,14 +81,14 @@ const productcard = [
 
 const Behindsec = () => {
     const list = productcard.map((productcard, p) => (
-        <div className='col-md-6 pt-4 ' key={p} >
+        <div className='col-md-6 pt-4 text_c_center ' key={p} >
             <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-5 light-black position-relative`} data-aos={`${productcard.animation}`}
                 data-aos-duration="5000">
                 <div className='d-lg-flex align-items-center gap-3'>
-                    <img src={productcard.img} alt="img" className='border-radius-img w-100 w-lg-0' />
+                    <img src={productcard.img} alt="img" className='border-radius-img ' />
                     <div>
-                        <div className='d-flex align-items-center gap-2 pt-3 pt-lg-0'>
-                            <h2 className='font-roboto fs-m lh-24 fw-semibold text-white mb-0'>{productcard.heading}</h2>
+                        <div className='d-lg-flex align-items-center gap-2 pt-3 pt-lg-0'>
+                            <h2 className='font-roboto fs-m lh-24 fw-semibold text-white mb-0 '>{productcard.heading}</h2>
                             <p className='font-roboto fs-s lh-19 fw-normal color-gradient mb-0 '>{productcard.head}</p>
                         </div>
                         <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 pt-3 max-w-2 83'>{productcard.para}</p>
@@ -109,8 +109,8 @@ const Behindsec = () => {
                     {list}
                 </div>
             </div>
-            <div className='behind-ellipse position-absolute behind-position z-n1'></div>
-            <div className='behind-ellipse position-absolute  behind-position-right z-n1'></div>
+            <div className='behind-ellipse position-absolute behind-position z-n1 d-lg-block d-none'></div>
+            <div className='behind-ellipse position-absolute  behind-position-right z-n1 d-lg-block d-none'></div>
             <p className='fs-2xl fw-bold lh-225 font-roboto  text-white opicity-6 position-absolute z-n1  behind-text-ellipse mt-5'>Our Team</p>
         </div>
     )

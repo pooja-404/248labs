@@ -74,7 +74,7 @@ const FormSec = () => {
                 <div className="row align-items-center pt-sm-5">
                     <div data-aos="fade-right" className="col-lg-7 col-12 ">
                         <div className="form-card w-100 px-lg-5 px-3  pt-lg-4 pb-5">
-                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white '>Get updated with us</h2>
+                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text_c_center '>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
                                 <div className="d-sm-flex gap-4 pt-lg-4">
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
@@ -189,7 +189,9 @@ const FormSec = () => {
                                 {formErrors.checkbox && (
                                     <p className="error font-roboto">{formErrors.checkbox}</p>
                                 )}
-                                <button className='font-roboto fs-s fw-medium lh-28 text-white common-btn five   border-0'>Subscribe</button>
+                                <div className="btn_center ">
+                                    <button className='font-roboto fs-s fw-medium lh-28 text-white common-btn five border-0'>Subscribe</button>
+                                </div>
                             </form>
                             {showPopup && (
                                 <div className="popup">
@@ -207,17 +209,16 @@ const FormSec = () => {
                         </div>
                     </div>
                     <div data-aos="fade-left" className="col-lg-5 col-12 pt-4 pt-lg-0">
-
-                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white'>Stay updated</h2>
-                        <p className='font-roboto fs-s lh-24 fw-normal off-gray'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
-                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white'>Address</h2>
-                        <a
+                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Stay updated</h2>
+                        <p className='font-roboto fs-s lh-24 fw-normal off-gray text_c_center'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
+                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Address</h2>
+                        <li className="text_c_center"><a
                             href="https://maps.app.goo.gl/7pka2vLvmguW9CMS6"
                             target="blank"
-                            className="font-roboto fs-s lh-24 fw-normal off-gray"
-                        >
+                            className="font-roboto fs-s lh-24 fw-normal off-gray ">
                             390 Orchard Road, 03-07, Palais Renaissance.
                         </a>
+                        </li>
                     </div>
                 </div>
             </div>

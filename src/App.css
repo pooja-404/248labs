@@ -1016,6 +1016,16 @@
     width: 50%;
   }
 
+  .text_c_center {
+    text-align: center;
+
+  }
+
+  .btn_center {
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 767.9px) {
