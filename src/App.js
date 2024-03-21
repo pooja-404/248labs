@@ -38,7 +38,7 @@ function App() {
       {data ? (
         <div>{<Preloadersec />}</div>
       ) : (
-        <div className="App">
+        <div className="App overflow-hidden">
           <Headersec />
           <Slidersec />
           <Gamesec />
