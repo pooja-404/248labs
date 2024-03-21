@@ -34,11 +34,11 @@ function App() {
     });
   }, []);
   return (
-    <div className='bg-black '>
+    <div className='bg-black overflow-x-hidden '>
       {data ? (
         <div>{<Preloadersec />}</div>
       ) : (
-        <div className="App overflow-hidden">
+        <div className="App ">
           <Headersec />
           <Slidersec />
           <Gamesec />
