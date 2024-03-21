@@ -682,8 +682,8 @@
 }
 
 /* roadmap */
-.w_105 {
-  width: 105%;
+.kite_w {
+  width: 102%;
 }
 
 .RoadMapPostion {
@@ -913,8 +913,8 @@
 
 /* text-ellipse */
 .text-position {
-  top: 7%;
-  right: -4%;
+  top: 2%;
+  right: -9%;
 }
 
 .behind-text-ellipse {
@@ -1090,6 +1090,7 @@
     right: 47%;
   }
 
+
   .mt_lg_btn {
     margin-top: 35px !important;
   }
@@ -1166,26 +1167,41 @@
   .game-card:hover {
     transform: translateY(-18%) !important;
   }
+
+  .game-card {
+    max-width: 367px;
+  }
+
+  .pl-lg-85 {
+    padding-left: 85px !important;
+
+  }
 }
 
 @media (min-width:1199.5px) {
   .LineLogo {
-    left: 47%;
+    /* left: 47%; */
+    top: -7px;
+  }
+
+  .kite_w {
+    width: 119%;
   }
 }
 
 @media (min-width:1200px) {
   .behind-card {
-    height: 359px !important;
+    height: 372px !important;
+    max-width: 558px;
   }
 
   .roadmap-box {
-    max-width: 545px;
-    margin-left: 65px;
+    max-width: 530px;
+    margin-left: 10px;
   }
 }
 
-@media (min-width: 1400px)and(min-width: 1600px) {
+@media (min-width: 1400px) and (max-width: 1600px) {
   .container {
     max-width: 1140px !important;
   }

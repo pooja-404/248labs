@@ -72,7 +72,7 @@ const FormSec = () => {
         <div className="formsec-bg position-relative overflow-hidden " id="our">
             <div className="container py-lg-5 my-lg-5">
                 <div className="row align-items-center pt-sm-5">
-                    <div data-aos="fade-right" className="col-lg-7 col-12 ">
+                    <div data-aos="fade-right" className="col-lg-8 col-12 ">
                         <div className="form-card w-100 px-lg-5 px-3  pt-lg-4 pb-5">
                             <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text_c_center '>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
@@ -208,7 +208,7 @@ const FormSec = () => {
                             )}
                         </div>
                     </div>
-                    <div data-aos="fade-left" className="col-lg-5 col-12 pt-4 pt-lg-0">
+                    <div data-aos="fade-left" className="col-lg-4 col-12 pt-4 pt-lg-0">
                         <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Stay updated</h2>
                         <p className='font-roboto fs-s lh-24 fw-normal off-gray text_c_center'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
                         <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Address</h2>
