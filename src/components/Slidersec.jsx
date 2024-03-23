@@ -76,19 +76,19 @@ function Slidersec() {
             <div className="container py-5">
                 <Slider {...settings} className="slider-align pt-5">
                     <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size ">
-                        <img src={sliderimg1} alt="slider" className="opicity" />
+                        <img src={sliderimg1} alt="slider" className="opicity slider_hover" />
                     </div>
                     <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center  slider-size ">
-                        <img src={sliderimg2} alt="slider" className="opicity" />
+                        <img src={sliderimg2} alt="slider" className="opicity slider_hover" />
                     </div>
                     <div className="px-4 d-flex align-items-end justify-content-center slider-size ">
-                        <img src={sliderimg3} alt="slider" className="opicity" />
+                        <img src={sliderimg3} alt="slider" className="opicity slider_hover" />
                     </div>
                     <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size ">
-                        <img src={sliderimg4} alt="slider" className="opicity" />
+                        <img src={sliderimg4} alt="slider" className="opicity slider_hover" />
                     </div>
                     <div className="px-4 mx-lg-0 d-flex align-items-end justify-content-center slider-size  ">
-                        <img src={sliderimg5} alt="slider" className="opicity" />
+                        <img src={sliderimg5} alt="slider" className="opicity slider_hover" />
                     </div>
 
                 </Slider >

@@ -260,9 +260,8 @@
 
 /* gamesec */
 .game-card {
-  height: 262px;
-  border-radius: 30px;
-  transition: 300ms linear;
+  height: 100%;
+  border-radius: 30px; 
 }
 
 .game-card:hover:before {
@@ -368,9 +367,11 @@
 .form-card {
   position: relative;
   border-radius: 30px;
-  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 43, 85, 0.2) 100%) !important;
   backdrop-filter: blur(15px) !important;
   display: inline-block;
+  border: 2px solid;
+  background: #0000001A;
+  border-image-source: linear-gradient(231.49deg, rgba(255, 255, 255, 0) -0.51%, rgba(218, 43, 85, 0.3479) 83.2%);
 
 }
 
@@ -385,18 +386,19 @@
 .form-card::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
-  right: 0;
+  right: -2px;
   bottom: 0;
   border-radius: 30px;
   border: 2px solid transparent;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 43, 85, 0.2) 100%) border-box;
+  background: linear-gradient(231.49deg, rgba(255, 255, 255, 0) -0.51%, rgba(218, 43, 85, 0.3479) 83.2%) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
   z-index: -1;
+
 }
 
 .form_input {
@@ -455,6 +457,7 @@
 .InputBtnPadding {
   padding: 16px 32px;
 }
+
 .borderIcon {
   border-radius: 30px;
   border: 1px solid var(--main);
@@ -595,11 +598,15 @@
 
 .slider-size {
   height: 76px;
+}
 
+.opicity:hover {
+  opacity: 7;
 }
 
 .opicity {
   opacity: 0.6;
+  transition: 300ms all linear;
 }
 
 /* max-width */
@@ -1163,6 +1170,7 @@
 
   .game-card {
     max-width: 367px;
+    height: 262px;
   }
 
   .pl-text {
@@ -1179,6 +1187,10 @@
 
   .kite_w {
     width: 121%;
+  }
+
+  .form-card {
+    max-width: 726px;
   }
 }
 

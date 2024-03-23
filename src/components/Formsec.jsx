@@ -73,8 +73,8 @@ const FormSec = () => {
             <div className="container py-lg-5 my-lg-5">
                 <div className="row align-items-center pt-sm-5">
                     <div data-aos="fade-right" className="col-lg-8 col-12 ">
-                        <div className="form-card w-100 px-lg-5 px-3  pt-lg-4 pb-5">
-                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text_c_center '>Get updated with us</h2>
+                        <div className="form-card w-100 px-lg-5 px-3  pt-lg-4 pb-lg-5 pb-4">
+                            <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text_c_center pt-3 pt-lg-0 '>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
                                 <div className="d-sm-flex gap-4 pt-lg-4">
                                     <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
