@@ -19,7 +19,7 @@ function Footersec() {
                 <div className='d-flex gap-3 justify-content-center pb-5'>
                     <a href="https://www.twitter.com" target="_blank" className=" icon "><FooterTwitter /></a>
                     <a href="https://www.facebook.com/" target="_blank" className=" icon "><FooterFacebook /></a>
-                    <a href="https://discord.com/" target="_blank" className=" icon "><FooterDiscord /></a>
+                    <a href="https://www.instagram.com/" target="_blank" className=" icon "><FooterDiscord /></a>
                     <a href="https://in.linkedin.com/" target="_blank" className=" icon "><FooterLinkin /></a>
                 </div>
 
