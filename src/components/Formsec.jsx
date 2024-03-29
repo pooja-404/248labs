@@ -200,7 +200,7 @@ const FormSec = () => {
                                     </p>
                                     <button
                                         onClick={handlePopupClose}
-                                        className="Nav_btn paddingClose mt-5"
+                                        className="Nav_btn paddingClose mt-5 border-0 font-roboto fw-medium"
                                     >
                                         Close
                                     </button>
