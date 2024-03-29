@@ -177,7 +177,7 @@ const FormSec = () => {
                                 <div className="form-group pt-3">
                                     <input type="checkbox" id="html" />
                                     <label for="html" className="font-roboto fs-sm fw-normal lh-21 text-white pb-3 "> By sending this form I confirm that I have read and accept
-                                        the <span className="fw-bold">Privacy <span className="d-lg-block pl-28">Policy</span></span></label>
+                                        the <span className="fw-bold">Privacy <span className="d-lg-block pl-leble">Policy</span></span></label>
                                 </div>
                                 {formErrors.checkbox && (
                                     <p className="error font-roboto">{formErrors.checkbox}</p>

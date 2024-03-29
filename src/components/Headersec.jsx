@@ -12,10 +12,10 @@ const Headersec = () => {
 
     return (
         <div className='bg-header min-vh-100 d-flex flex-column position-relative overflow-hidden'>
-            <nav className="container ">
-                <div className="d-flex align-items-center justify-content-between py-lg-4">
+            <nav className="container py-2  ">
+                <div className="d-flex align-items-center justify-content-between py-lg-3">
                     <a href="">
-                        <img src={logo} alt="Logo" className=" cursor-pointer navlogo py-2 " />
+                        <img src={logo} alt="Logo" className=" cursor-pointer navlogo " />
                     </a>
                     <>
                         <ul className={`${show ? "left_100" : "left_0"} nav_bar gap-4 d-flex ps-0`}>

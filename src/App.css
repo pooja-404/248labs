@@ -374,6 +374,8 @@
 
 }
 
+
+
 .form-group {
   display: block;
 }
@@ -447,9 +449,6 @@
 
 }
 
-.pl-28 {
-  padding-left: 32px;
-}
 
 .form_input {
   background: transparent;
@@ -1145,6 +1144,10 @@
     bottom: 45%;
     right: 47%;
   }
+
+.pl-leble {
+  padding-left: 32px;
+}
 
   .img_h {
     height: 422px;
