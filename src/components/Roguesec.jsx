@@ -5,7 +5,7 @@ function Roguesec() {
     return (
         <div className='position-relative overflow-x-clip z-1'>
             <div className="container py-lg-5">
-                <img src={unique} alt="uniqueimg" className='border-radius-img w-100' />
+                <img src={unique} alt="uniqueimg" className='border-radius-img img_h w-100' />
                 <div className="row pt-4 pb-md-5">
                     <div className="col-lg-3" data-aos="fade-right">
                         <li className='btn_center'><a href="" className='font-roboto fs-sm fw-bold lh-27 text-white link-btn box '>name@domain.com</a></li>

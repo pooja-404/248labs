@@ -82,7 +82,7 @@ const productcard = [
 const Behindsec = () => {
     const list = productcard.map((productcard, p) => (
         <div className='col-md-6 col-12 pt-4 text_c_center ' key={p} >
-            <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-5 light-black position-relative`} data-aos={`${productcard.animation}`}
+            <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-md-5 pb-3 light-black position-relative`} data-aos={`${productcard.animation}`}
                 data-aos-duration="5000">
                 <div className='row '>
                     <div className="col-lg-5">
@@ -104,7 +104,7 @@ const Behindsec = () => {
         <div className='position-relative z-1 overflow-hidden' id='our'>
             <div className="container py-lg-5 pb-3">
                 <div className="d-flex justify-content-center text mt-5 " >
-                    <button className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</button>
+                    <p className='font-roboto fs-s lh-19 text fw-normal graident-btnn box color-gradient border-0'>OUR TEAM</p>
                 </div>
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center py-lg-3 pt-2' data-aos="zoom-in">Behind our expertise</h2>
                 <div className="row pt-3">

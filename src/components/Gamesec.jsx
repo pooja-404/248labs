@@ -33,8 +33,8 @@ const Gamesec = () => {
             <div className="container pt-lg-5 pb-3">
                 <div className="row py-lg-5">
                     <div className="col-lg-7" data-aos="fade-right">
-                        <li className='btn_center'>
-                            <a href="" className='font-roboto fs-s lh-19 fw-normal graident-btnn  color-gradient box '>DOERS OVER TALKERS</a></li>
+                        <div className='btn_center'>
+                            <p className='font-roboto fs-s lh-19 fw-normal graident-btnn mb-0  color-gradient box '>DOERS OVER TALKERS</p></div>
                         <h2 className='font-roboto fs-xl lh-62 fw-bold text-white pt-4  text_c_center'>Game  <span className='d-lg-block'>First.Always.</span></h2>
                     </div>
                     <div className="col-lg-5 " data-aos="fade-left">
