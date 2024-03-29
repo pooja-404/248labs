@@ -211,7 +211,7 @@ const FormSec = () => {
                     <div data-aos="fade-left" className="col-lg-4 col-12 pt-4 pt-lg-0">
                         <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Stay updated</h2>
                         <p className='font-roboto fs-s lh-24 fw-normal off-gray text_c_center'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
-                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center'>Address</h2>
+                        <h2 className='font-roboto fs-md fw-normal lh-28 text-white text_c_center pt-md-3 '>Address</h2>
                         <li className="text_c_center"><a
                             href="https://maps.app.goo.gl/7pka2vLvmguW9CMS6"
                             target="blank"
@@ -224,8 +224,6 @@ const FormSec = () => {
             </div>
             <img src={formlayer} alt="form" className="position-absolute form_layer  w-100" />
         </div>
-
-
     );
 };
 
