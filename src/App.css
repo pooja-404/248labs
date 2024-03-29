@@ -261,7 +261,7 @@
 /* gamesec */
 .game-card {
   height: 100%;
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .game-card:hover:before {
@@ -1224,6 +1224,10 @@
   .pl-text {
     padding-left: 218px !important;
 
+  }
+
+  .roadmap-box {
+    margin-left: 57px;
   }
 
 }
