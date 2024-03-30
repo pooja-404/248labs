@@ -21,7 +21,7 @@ const Gamesec = () => {
 
     const list = productcard.map((productcard, p) => (
         <div className='col-lg-4 col-md-6 pt-3 ' key={p} >
-            <div className=" game-card cursor-pointer  overflow-hidden px-4 pt-5 light-black box game-card2 position-relative" data-aos="flip-up">
+            <div className=" game-card   overflow-hidden px-4 pt-5 light-black box game-card2 position-relative" data-aos="flip-up">
                 <h2 className='font-roboto fs-lg lh-38 fw-bold text-white'>{productcard.heading}</h2>
                 <p className='font-roboto fs-s lh-24 fw-normal off-gray'>{productcard.para}</p>
                 <div className='card-game-shadow  position-absolute '></div>
