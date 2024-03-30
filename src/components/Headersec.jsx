@@ -11,7 +11,7 @@ const Headersec = () => {
     }
 
     return (
-        <div className='bg-header min-vh-100 d-flex flex-column position-relative overflow-hidden'>
+        <div className='bg-header min-vh-100 d-flex flex-column position-relative z-1 overflow-hidden'>
             <nav className="container py-2  ">
                 <div className="d-flex align-items-center justify-content-between py-lg-3">
                     <a href="">
@@ -52,7 +52,7 @@ const Headersec = () => {
 
                         <div
                             onClick={() => setshow(!show)}
-                            className={`${show ? "" : "cross"} navline `}
+                            className={`${show ? "" : "cross"} navline`}
                         >
                             <span className="crl-1"></span>
                             <span className="crl-2"></span>
@@ -67,7 +67,7 @@ const Headersec = () => {
                     <p className='font-roboto fs-md lh-28 text-white fw-normal text-center pt-2' data-aos="zoom-in" data-aos-duration="2000">Redefining the future of play</p>
                 </div>
             </div>
-            <img src={hero} alt="hero" className='position-abs olute hero_bottom  mx-auto star t-50 ' />
+            <img src={hero} alt="hero" className='position-abs olute hero_bottom z-n1  mx-auto star t-50 ' />
 
 
         </div >
