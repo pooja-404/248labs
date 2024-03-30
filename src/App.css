@@ -231,6 +231,10 @@
   padding-bottom: 0px !important;
 }
 
+.behind-w {
+  width: 70% !important;
+}
+
 .link-btn.box::before {
   content: "";
   position: absolute;
@@ -245,6 +249,7 @@
   mask-composite: exclude;
   pointer-events: none;
 }
+
 
 .link-btn:hover {
   box-shadow: 0px 0px 10px 0px rgb(210, 110, 38);
@@ -369,6 +374,7 @@
   box-shadow: 0px 0px 20px 0px rgb(249, 245, 241);
   opacity: (1);
 }
+
 
 /* formsec */
 .form-card {
@@ -1125,6 +1131,10 @@
     --fs-xl: 52px;
     --fs-xxl: 72px;
     --fs-2xl: 187.49px;
+  }
+
+  .behind-w {
+    width: 100% !important;
   }
 
   .form-group label:before {

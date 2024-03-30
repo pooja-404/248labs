@@ -86,7 +86,7 @@ const Behindsec = () => {
                 data-aos-duration="5000">
                 <div className='row '>
                     <div className="col-lg-5">
-                        <img src={productcard.img} alt="img" className='border-radius-img w-100 ' />
+                        <img src={productcard.img} alt="img" className='border-radius-img  behind-w  object-fit-cover' />
                     </div>
                     <div className="col-lg-7">
                         <div className='d-xl-flex gap-2 align-items-center pt-3 pt-lg-0'>
