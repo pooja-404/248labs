@@ -9,7 +9,7 @@ function Roguesec() {
                 <div className="row pt-4 pb-md-5">
                     <div className="col-lg-3" data-aos="fade-right">
                         <li className='btn_center'><a href="" className='font-roboto fs-sm fw-bold lh-27 text-white link-btn box '>name@domain.com</a></li>
-                        <li className='mt_lg_btn btn_center'><a href="" className='font-roboto text-nowrap fs-sm fw-bold lh-27 px-5 text-white common-btn five '>Make Your Move</a></li>
+                        <li className='mt_lg_btn btn_center'><a href="" className='font-roboto text-nowrap fs-sm fw-bold lh-27 px-lg-5 py-lg-3 px-4 text-white common-btn five '>Make Your Move</a></li>
                     </div>
                     <div className="col-lg-9 pl-text pt-3 pt-lg-0" data-aos="fade-left">
                         <p className='font-roboto fs-s fw-normal lh-24 off-gray text_c_center'>Unveiled is a unique <span className='text-white fw-semibold'>collectible card game</span> in which you gain fervour for your ventures, spending it on <span className='d-lg-block'>mercenaries, spies, automata, and influence.</span></p>

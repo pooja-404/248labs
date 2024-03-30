@@ -10,7 +10,7 @@ function Nextsec() {
         <p className='font-roboto fs-s lh-24 fw-semibold text-white text-center' data-aos="zoom-in">92% of gamers have never even tried a Web3 game. We’re going to change that.</p>
         <p className='font-roboto fs-s lh-24 fw-normal off-gray text-center' data-aos="zoom-in">248Labs The market is worth about a gazillion dollars, so whatever those stats were, that goes here.</p>
         <div className='d-flex justify-content-center ' data-aos="zoom-in">
-          <button className='font-roboto fs-md fw-bold lh-28 text-white mt-lg-3 common-btn five   border-0'>Try to keep up</button>
+          <button className='font-roboto fs-m fw-bold lh-28 text-white mt-lg-3 common-btn five px-lg-5 px-4 border-0'>Try to keep up</button>
         </div>
       </div>
       <img src={layer1} alt="layer" className='position position-absolute next-layer1  w-100' />

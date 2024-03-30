@@ -7,7 +7,7 @@ function Richsec() {
             <div className="container py-lg-5 pt-4">
                 <h2 className='font-roboto fs-xl fw-bold lh-62 text-white text-center pb-4' data-aos="zoom-in">A rich, inhabited, and licensable world.</h2>
                 <div className='position-relative'>
-                    <img src={richworld} alt="richwold" className='border-radius-img w-100' />
+                    <img src={richworld} alt="richwold" className='border-radius-img w-100 h_richworld object-fit-cover' />
                     <a href="https://www.youtube.com/watch?v=tTkz7hnY8WE" className=" position-absolute vedio-btn" target='blank'>
                         <svg className='svg-w' width="76" height="77" viewBox="0 0 76 77" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="37.9999" cy="38.3456" r="37.7616" fill="white" fillOpacity="0.41" />

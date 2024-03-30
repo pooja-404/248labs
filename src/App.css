@@ -118,6 +118,10 @@
   background-repeat: no-repeat;
 }
 
+.h_richworld {
+  height: 200px;
+}
+
 .bg-nextsec {
   background-image: url(../src/assets/images/nextbg.webp);
   background-position: center;
@@ -142,7 +146,7 @@
 
 /* btn */
 .common-btn {
-  padding: 14px 32px 15px 32px !important;
+  padding: 13px 25px 14px 25px !important;
   border-radius: 261px;
   transition: all 500ms ease !important;
 }
@@ -218,9 +222,13 @@
 }
 
 .link-btn {
-  padding: 14px 32px 14px 32px !important;
+  padding: 14px 15px 14px 15px !important;
   border-radius: 261px;
   transition: all 500ms ease !important;
+}
+
+.hero_bottom {
+  padding-bottom: 12px !important;
 }
 
 .link-btn.box::before {
@@ -373,8 +381,6 @@
   border-image-source: linear-gradient(231.49deg, rgba(255, 255, 255, 0) -0.51%, rgba(218, 43, 85, 0.3479) 83.2%);
 
 }
-
-
 
 .form-group {
   display: block;
@@ -983,7 +989,7 @@
 }
 
 .vedio-btn {
-  bottom: 21%;
+  bottom: 31%;
   right: 34%;
 }
 
@@ -1089,6 +1095,7 @@
     left: 31px;
   }
 
+
   .roadmap-box {
     width: 100%;
     padding-left: 70px;
@@ -1120,6 +1127,10 @@
     --fs-2xl: 187.49px;
   }
 
+  .link-btn {
+    padding: 14px 32px 14px 32px !important;
+  }
+
   .LineLogo {
     max-width: 70px;
     left: 44.6%;
@@ -1128,6 +1139,15 @@
   .main-timeline::after {
     left: 50% !important;
   }
+
+  .common-btn {
+    padding: 14px 32px 15px 32px !important;
+  }
+
+  .h_richworld {
+    height: 458px;
+  }
+
 
   .mb-md-170 {
     margin-bottom: 170px;
@@ -1141,13 +1161,13 @@
 
 @media (min-width: 991.5px) {
   .vedio-btn {
-    bottom: 45%;
+    bottom: 42%;
     right: 47%;
   }
 
-.pl-leble {
-  padding-left: 32px;
-}
+  .pl-leble {
+    padding-left: 32px;
+  }
 
   .img_h {
     height: 422px;
@@ -1182,7 +1202,7 @@
   }
 
   .bg-levelsec {
-    height: 760px;
+    height: 765px;
   }
 
   .bg-nextsec {

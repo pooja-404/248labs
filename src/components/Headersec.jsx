@@ -67,7 +67,7 @@ const Headersec = () => {
                     <p className='font-roboto fs-md lh-28 text-white fw-normal text-center pt-2' data-aos="zoom-in" data-aos-duration="2000">Redefining the future of play</p>
                 </div>
             </div>
-            <img src={hero} alt="hero" className='position-abs olute bottom-0  mx-auto star t-50 ' />
+            <img src={hero} alt="hero" className='position-abs olute hero_bottom  mx-auto star t-50 ' />
 
 
         </div >
