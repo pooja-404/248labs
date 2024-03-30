@@ -228,7 +228,7 @@
 }
 
 .hero_bottom {
-  padding-bottom: 12px !important;
+  padding-bottom: 0px !important;
 }
 
 .link-btn.box::before {
@@ -862,7 +862,7 @@
   z-index: 50;
   background: linear-gradient(151.6deg, rgba(230, 67, 12, 0.4) 1.85%, rgba(150, 95, 7, 0.4) 98.12%);
   -webkit-mask-composite: xor;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
   opacity: 1;
   box-shadow: 0px 0px 20px 0px rgb(247, 137, 18);
@@ -1127,6 +1127,10 @@
     --fs-2xl: 187.49px;
   }
 
+  .back-button {
+    padding: 15px;
+  }
+
   .link-btn {
     padding: 14px 32px 14px 32px !important;
   }
@@ -1147,7 +1151,6 @@
   .h_richworld {
     height: 458px;
   }
-
 
   .mb-md-170 {
     margin-bottom: 170px;
@@ -1301,6 +1304,10 @@
 @media (min-width: 1600px) {
   .kite_w {
     width: 104%;
+  }
+
+  .hero_bottom {
+    padding-bottom: 0px !important;
   }
 
   .LineLogo {
