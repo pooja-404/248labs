@@ -81,7 +81,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="FirstName"
-                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-3 "
+                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-sm-3 pt-2 pt-lg-0 pb-2 "
                                         >
                                             First Name
                                         </label>
@@ -105,7 +105,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="LastName"
-                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-3 "
+                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-sm-3 pt-2 pt-lg-0 pb-2 "
                                         >
                                             Last Name
                                         </label>
@@ -130,7 +130,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="number"
-                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-3"
+                                            className="font-roboto fs-s fw-medium lh-18 text-white mb-0 pb-sm-3 pt-2 pt-lg-0 pb-2"
                                         >
                                             Phone Number
                                         </label>
@@ -154,7 +154,7 @@ const FormSec = () => {
                                         {" "}
                                         <label
                                             htmlFor="email"
-                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-3"
+                                            className="font-roboto fs-s fw-normal lh-18 text-white mb-0 pb-sm-3 pt-2 pt-lg-0 pb-2"
                                         >
                                             Email
                                         </label>
@@ -177,7 +177,7 @@ const FormSec = () => {
                                 <div className="form-group pt-3">
                                     <input type="checkbox" id="html" />
                                     <label for="html" className="font-roboto fs-sm fw-normal lh-21 text-white pb-3 "> By sending this form I confirm that I have read and accept
-                                        the <span className="fw-bold">Privacy <span className="d-lg-block pl-leble">Policy</span></span></label>
+                                        the <span className="fw-bold">Privacy <span className="d-xl-block pl-leble">Policy</span></span></label>
                                 </div>
                                 {formErrors.checkbox && (
                                     <p className="error font-roboto">{formErrors.checkbox}</p>
