@@ -81,7 +81,7 @@ const productcard = [
 
 const Behindsec = () => {
     const list = productcard.map((productcard, p) => (
-        <div className='col-md-6 col-12 pt-4 text_c_center ' key={p} >
+        <div className='col-md-6 col-12 pt-sm-4 pt-2 text_c_center ' key={p} >
             <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-md-5 pb-3 light-black position-relative`} data-aos={`${productcard.animation}`}
                 data-aos-duration="5000">
                 <div className='row '>
