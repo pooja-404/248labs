@@ -146,7 +146,7 @@
 
 /* btn */
 .common-btn {
-  padding: 13px 25px 14px 25px !important;
+  padding: 12px 25px 13px 25px !important;
   border-radius: 261px;
   transition: all 500ms ease !important;
 }
@@ -176,7 +176,7 @@
 
 /* gradient */
 .graident-btnn {
-  padding: 14px 25px 13px 25px !important;
+  padding: 13px 25px 12px 25px !important;
   gap: 10px;
   border-radius: 30px;
   opacity: (0);
@@ -222,7 +222,7 @@
 }
 
 .link-btn {
-  padding: 14px 15px 14px 15px !important;
+  padding: 13px 14px 13px 14px !important;
   border-radius: 261px;
   transition: all 500ms ease !important;
 }
