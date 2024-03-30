@@ -81,8 +81,8 @@ const productcard = [
 
 const Behindsec = () => {
     const list = productcard.map((productcard, p) => (
-        <div className='col-md-6 col-12 pt-sm-4 pt-2 text_c_center ' key={p} >
-            <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-md-5 pb-3 light-black position-relative`} data-aos={`${productcard.animation}`}
+        <div className='col-md-6 col-12 pt-sm-4 pt-3  text_c_center ' key={p} >
+            <div className={`behind-card  border-radius-img overflow-hidden px-3 pt-3 pb-md-5 light-black position-relative`} data-aos={`${productcard.animation}`}
                 data-aos-duration="5000">
                 <div className='row '>
                     <div className="col-lg-5">
@@ -93,10 +93,10 @@ const Behindsec = () => {
                             <h2 className='font-roboto fs-m lh-24 fw-semibold text-white mb-0 text-nowrap'>{productcard.heading}</h2>
                             <p className='font-roboto fs-s lh-19 fw-normal color-gradient mb-0 text-nowrap'>{productcard.head}</p>
                         </div>
-                        <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 pt-3 max-w-2 83'>{productcard.para}</p>
+                        <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 pt-3 max-w-283'>{productcard.para}</p>
                     </div>
                 </div>
-                <p className='font-roboto fs-s lh-24 fw-normal off-gray pt-3  max-w-5 30'>{productcard.text}</p>
+                <p className='font-roboto fs-s lh-24 fw-normal off-gray pt-3  max-w-530'>{productcard.text}</p>
             </div>
         </div>
     ));
