@@ -93,7 +93,7 @@ const Behindsec = () => {
                             <h2 className='font-roboto fs-m lh-24 fw-semibold text-white mb-0 text-nowrap'>{productcard.heading}</h2>
                             <p className='font-roboto fs-s lh-19 fw-normal color-gradient mb-0 text-nowrap'>{productcard.head}</p>
                         </div>
-                        <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 pt-3 max-w-283'>{productcard.para}</p>
+                        <p className='font-roboto fs-s lh-24 fw-normal off-gray mb-0 pt-3 max-w -283'>{productcard.para}</p>
                     </div>
                 </div>
                 <p className='font-roboto fs-s lh-24 fw-normal off-gray pt-3  max-w-530'>{productcard.text}</p>
