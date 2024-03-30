@@ -127,7 +127,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 320px;
 }
 
 .formsec-bg {
@@ -406,7 +406,7 @@
   background-color: transparent;
   border: 2px solid #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 9px 8px 8px 9px;
+  padding: 6px 5px 5px 6px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -665,7 +665,7 @@
 }
 
 .opicity {
-  opacity: 0.6;
+  opacity: 0.5;
   transition: 300ms all linear;
 }
 
@@ -1127,6 +1127,11 @@
     --fs-2xl: 187.49px;
   }
 
+  .form-group label:before {
+    padding: 8px 7px 7px 8px;
+
+  }
+
   .back-button {
     padding: 15px;
   }
@@ -1166,6 +1171,10 @@
   .vedio-btn {
     bottom: 42%;
     right: 47%;
+  }
+
+  .max-w-517 {
+    max-width: 517px;
   }
 
   .pl-leble {
