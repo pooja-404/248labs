@@ -18,7 +18,7 @@ const Headersec = () => {
                         <img src={logo} alt="Logo" className=" cursor-pointer navlogo " />
                     </a>
                     <>
-                        <ul className={`${show ? "left_100" : "left_0"} nav_bar gap-4 d-flex ps-0`}>
+                        <ul className={`${show ? "left_100" : "left_0"} nav_bar gap-4 d-flex align-items-center ps-0`}>
                             <li onClick={() => setshow(!show)}>
                                 <a
                                     className=" font-roboto gray fs-s navhover list-unstyled text-decoration-none fw-normal lh-24 nav_line position-relative"
