@@ -17,7 +17,7 @@ const Roadmapsec = () => {
                     <div className="border_color mt_150">
                         <div className="border_color2">
                             <div className="d-flex justify-content-center mt-2" data-aos="zoom-in">
-                                <p className='font-roboto fs-s lh-19 fw-normal graident-btnn color-gradient box border-0'>ROAD MAP</p>
+                                <p className='font-roboto fs-s lh-19 fw-normal graident-btnn color-gradient box border-0 mb-0'>ROAD MAP</p>
                             </div>
                         </div>
                     </div>
